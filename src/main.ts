@@ -44,7 +44,6 @@ const main = () => {
         });
 
         bot.command("mute", (context) => {
-            console.log("mute");
             flag = !flag;
             context.reply(
                 `Відтепер повідомлення від ботів ${flag ? "не " : ""}будуть видалятися`,
