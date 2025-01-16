@@ -1,0 +1,25 @@
+{
+  "name": "anti-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+      "start": "node ./dist/main.js",
+      "dev:watch": "tsx watch --tsconfig ./tsconfig.json ./src/main.ts",
+      "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Alexander Antoshchuk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

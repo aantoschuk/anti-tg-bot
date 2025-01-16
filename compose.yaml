@@ -1,0 +1,15 @@
+services:
+  quiz-bot:
+    container_name: quiz-bot
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: bot/quiz:latest
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules # anonymous volume for node_modules only
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    command: pnpm dev:watch
