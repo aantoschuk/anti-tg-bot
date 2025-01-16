@@ -4,4 +4,4 @@
 
 ## Розроблено для мережі GeekLegends
 
-*Посилання на [GeekLegends](https://t.me/geeklegends)
+*Посилання на* [GeekLegends](https://t.me/geeklegends)
